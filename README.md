@@ -21,5 +21,11 @@ An end-to-end data analysis and interactive Power BI dashboard project designed 
 ```dax
 Total Revenue = SUM(sales_data[total_amount])
 Total Orders = COUNT(sales_data[order_id])
+
+## 📁 Repository Structure
+- `ecommerce_sales_analysis.sql`
+- `ECommerce_Sales_Performance_Dashboard.pbix`
+- `Dashboard_Preview.pdf`
+- `README.md`
 AOV = [Total Revenue] / [Total Orders]
 Avg Discount Rate = AVERAGE(sales_data[discount])
